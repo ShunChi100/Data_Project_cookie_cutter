@@ -36,7 +36,7 @@ bash cookie_cutter_interactive.sh root_directory_name
 `root_directory_name` is optional. If not provided, its default name `new_project` is used as the new_project root directory name.
 
 There are four interactions when running the script:
-1. If the `root_directory_name` exists in the current directory, you need to choose interactively, whether or not to remove the existing one and create a new directory. If you choose `no`, the script stops and keep the existing directory untouched.
+1. If the `root_directory_name` exists in the current directory, you need to choose interactively, whether or not to remove the existing one and create a new directory. If you choose `no`, the script stops and keeps the existing directory untouched.
 2. Setting version control. If you choose `yes`, you need to provide the github repo url you want to use for this project.
 3. Adding additional sub-directories. If you choose `yes`, you can add a sub-directory each time (other than provided) and as many times as you want.
 4. Push to github repo. This only shows up when you have set version control (see #2 above). If you choose `yes`, it automatically `add .`, `commit -m "First commit"` and `git push` to remote repo.
